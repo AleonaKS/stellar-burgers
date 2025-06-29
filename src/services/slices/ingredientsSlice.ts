@@ -64,4 +64,11 @@ export const { selectIngredients, selectIsLoading, selectIngredientsError } =
 
 export const { clearError, resetIngredients } = ingredientsSlice.actions;
 
+export const ingredientsSelectors = ingredientsSlice.selectors;
+
+export const ingredientsActions = {
+  ...ingredientsSlice.actions,
+  fetchIngredients
+};
+
 export default ingredientsSlice.reducer;

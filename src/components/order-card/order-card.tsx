@@ -2,7 +2,7 @@ import { FC, memo, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import { useSelector } from '../../services/store';
-import { selectIngredients } from '../../services/slices/ingedientsSlice';
+import { selectIngredients } from '../../services/slices/ingredientsSlice';
 
 import { OrderCardProps } from './type';
 import { TIngredient } from '@utils-types';
